@@ -1,0 +1,37 @@
+{
+  "name": "fastify-js-mongo-starter-rest",
+  "version": "1.0.0",
+  "description": "Boilerplate project for bootstrapping development of a Rest API application with NodeJS, Fastify and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon",
+    "lint": "eslint index.js src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinsage/fastify-js-mongo-starter-rest.git"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "spinsage",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/spinsage/fastify-js-mongo-starter-rest/issues"
+  },
+  "homepage": "https://github.com/spinsage/fastify-js-mongo-starter-rest#readme",
+  "dependencies": {
+    "fastify": "^3.25.2",
+    "fastify-env": "^2.1.1",
+    "fastify-mongodb": "^4.1.1",
+    "pino-pretty": "^7.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-standard": "^16.0.3",
+    "nodemon": "^2.0.15"
+  }
+}
