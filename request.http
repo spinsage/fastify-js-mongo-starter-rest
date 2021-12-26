@@ -1,0 +1,25 @@
+GET http://localhost:3001/contacts/123
+###
+
+DELETE http://localhost:3001/contacts/123
+###
+
+POST http://localhost:3001/contacts
+content-type: application/json
+
+{
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "email" : "johndoe@example.com"
+}
+###
+
+PUT http://localhost:3001/contacts/123
+content-type: application/json
+
+{
+    "firstName" : "Jane",
+    "lastName" : "Doe",
+    "email" : "janedoe@example.com"
+}
+###
