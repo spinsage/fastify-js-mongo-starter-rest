@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  api:
+    container_name: fastify-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fastify-api  
+    restart: always
+    ports:
+      - "3001:${SERVER_PORT}"  
+    links: 
+      - mongoDb 
+  mongoDb:
+    container_name: mongoDb
+    image: mongo:latest
+    restart: always
+    environment: 
+      MONGO_INITDB_DATABASE: ${MONGO_DB_NAME}
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27018:${MONGO_PORT}"

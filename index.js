@@ -14,7 +14,7 @@ server.register(require('./src/routes'))
 
 const startSever = async () => {
     await server.ready()
-    server.listen(server.config.SERVER_PORT, (err) => {
+    server.listen(server.config.SERVER_PORT, '0.0.0.0', (err) => {
         if (err) {
             server.log.error(err)
             process.exit(1)
