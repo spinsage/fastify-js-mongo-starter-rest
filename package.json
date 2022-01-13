@@ -1,6 +1,6 @@
 {
   "name": "fastify-js-mongo-starter-rest",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Boilerplate project for bootstrapping development of a Rest API application with NodeJS, Fastify and MongoDB",
   "main": "index.js",
   "scripts": {
