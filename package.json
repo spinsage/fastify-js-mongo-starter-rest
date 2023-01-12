@@ -25,7 +25,7 @@
   "dependencies": {
     "fastify": "^3.27.2",
     "fastify-env": "^2.2.0",
-    "fastify-mongodb": "^4.1.1",
+    "fastify-mongodb": "^4.2.1",
     "pino-pretty": "^7.5.2",
     "uuid": "^8.3.2"
   },
