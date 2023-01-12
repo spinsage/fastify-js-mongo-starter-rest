@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/spinsage/fastify-js-mongo-starter-rest#readme",
   "dependencies": {
-    "fastify": "^3.27.2",
+    "fastify": "^3.29.4",
     "fastify-env": "^2.2.0",
     "fastify-mongodb": "^4.2.1",
     "pino-pretty": "^7.5.2",
